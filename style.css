@@ -1,0 +1,14 @@
+body{
+    background:red;
+}
+body{background-color: blue;
+color: white;
+font: size 80px;}
+p{background: green;
+width: 50%;}
+
+a{background: yellow;}
+
+h1{background: purple;
+padding: 30px;
+margin: 50px;}
