@@ -1,34 +1,18 @@
-body {
-  background: red;
-}
-body {
-  background-color: blue;
-  color: white;
-  font: size 80px;
-}
-p {
-  background: green;
-  width: 50%;
-}
-
-a {
-  background: yellow;
-}
-
-h1 {
-  background: purple;
-  padding: 30px;
-  margin: 50px;
-}
-
 div {
-  img {
-    width: 50px;
-  }
-  background-color: rgb(217, 184, 184);
-  width: 30%;
+  background-color: rgb(43, 49, 224);
+  width: 300px;
   margin: auto;
-  margin-top: 10%;
-  padding-left: 20px;
+  padding: 30px;
   border-radius: 10px;
+  position: relative;
+  top: 40%;
+  height: 300px;
+}
+img {
+  position: absolute;
+  left: 50%;
+  transform: translateZ(-50%);
+  width: 40px;
+  border-radius: 50px;
+  size: 40px;
 }
